@@ -1,0 +1,57 @@
+body{
+  background: #FAFAFA;
+  font-family: OpenSans ,sans-serif;
+}
+nav {
+  margin:-2% -2% 2% -2%;
+  background: #F56B2A;
+  height: 70px;
+  line-height: 70px;
+
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: underline;
+}
+ul{
+  text-align: center;
+}
+li{
+  list-style-type: none;
+  display: inline;
+  margin:1%;
+  text-align: center;
+  font-size: 15px;
+  color:white;
+  font-weight: bold;
+}
+img{
+
+  position: absolute;
+  right: 33%;
+  top: 15%;
+  width: 400px;
+  height: 500px;
+}
+
+.logo{
+  font-size: 25px;
+}
+.connecter{
+  border: 1px solid white;
+  padding:10px 10px;
+  border-radius: 5px;
+}
+
+aside li a{
+  font-size: 1em;
+  display: block;
+  text-align: right;
+  vertical-align: top;
+  margin-top: -18;
+  margin-right:5%;
+
+}
