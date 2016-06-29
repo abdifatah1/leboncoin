@@ -17,6 +17,7 @@ a:hover{
   text-decoration: underline;
 }
 ul{
+
   text-align: center;
 }
 li{
@@ -28,13 +29,16 @@ li{
   color:white;
   font-weight: bold;
 }
+li a:hover{
+  color: #F56B2A;
+}
+
 img{
 
   position: absolute;
-  right: 33%;
-  top: 15%;
-  width: 400px;
-  height: 500px;
+  right: 30%;
+  top: 18%;
+  margin:auto;
 }
 
 .logo{
@@ -45,13 +49,17 @@ img{
   padding:10px 10px;
   border-radius: 5px;
 }
+.leftside{
+  width: 20%;
+  position: absolute;
+  right: 6%;
+  top: 10%;
 
+}
 aside li a{
-  font-size: 1em;
   display: block;
   text-align: right;
-  vertical-align: top;
   margin-top: -18;
-  margin-right:5%;
+
 
 }
