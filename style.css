@@ -29,15 +29,16 @@ body{
            /*menu*/
 .menu {
   background: #F56B2A;
-  height: 70px;
-  line-height: 70px;
+	width: 100%;
+	height:70px;
+  line-height: 30px;
   text-align: center;
   font-family: OpenSensSemiBold;
 }
 
 li{
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin:1%;
   text-align: center;
   font-size: 15px;
@@ -64,7 +65,7 @@ li{
             /*connexion*/
 .connecter{
   border: 1px solid white;
-  padding:10px 10px;
+  padding:5px 5px;
   border-radius: 5px;
 }
 
@@ -107,14 +108,14 @@ button{
             /*image pub*/
 .pub{
   width: 30%;
-  height: auto;
+	margin-top: 2%;
   position: absolute;
-  left: 15%;
-  top: 55%;
+  left: 5%;
+  top: 52%;
 }
 
              /*The map*/
-img{
+.map{
 
   position: absolute;
   right: 30%;
@@ -158,6 +159,7 @@ aside ul li a:hover{
   position: absolute;
   bottom:-70%;
   border: 1px solid #666;
+	padding-bottom: 5%;
   width: 100%;
   height: auto;
 }
@@ -192,11 +194,45 @@ aside ul li a:hover{
 .appstore{
   position: absolute;
   bottom:35%;
-  left: 11%;
+  left:1%;
 }
 
 .playstore{
   position: absolute;
   bottom:35%;
-  left: 20%;
+  left:12%;
+}
+@media screen and (max-width:1040px){
+.pub{
+	display: none;
+}
+.deposer{
+	width: 25%;
+	margin-top: 25%;
+	margin-left: 0;
+}
+.deposer a {
+	font-size: 10px;
+}
+button{
+	width: 25%;
+	font-size: 10px;
+	margin-left: 0;
+}
+.footer_cont{
+
+  position: absolute;
+  bottom:-130%;
+  width: 100%;
+  height: auto;
+}
+}
+           /*medi query from 760px*/
+@media screen and (max-width:760px){
+.deposer{
+	display: none;
+}
+button {
+	display: none;
+}
 }
